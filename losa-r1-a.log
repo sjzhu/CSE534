@@ -1,138 +1,0 @@
-Hit:1 http://nova.clouds.archive.ubuntu.com/ubuntu jammy InRelease
-
-WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
-
-Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
-Get:3 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
-Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-backports InRelease [109 kB]
-Get:5 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [857 kB]
-Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
-Get:7 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [175 kB]
-Get:8 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [11.4 kB]
-Get:9 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [953 kB]
-Get:10 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [154 kB]
-Get:11 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 c-n-f Metadata [532 B]
-Get:12 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [790 kB]
-Get:13 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [145 kB]
-Get:14 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [16.8 kB]
-Get:15 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [36.5 kB]
-Get:16 http://security.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [7060 B]
-Get:17 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 c-n-f Metadata [260 B]
-Get:18 http://nova.clouds.archive.ubuntu.com/ubuntu jammy/universe Translation-en [5652 kB]
-Get:19 http://nova.clouds.archive.ubuntu.com/ubuntu jammy/universe amd64 c-n-f Metadata [286 kB]
-Get:20 http://nova.clouds.archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [217 kB]
-Get:21 http://nova.clouds.archive.ubuntu.com/ubuntu jammy/multiverse Translation-en [112 kB]
-Get:22 http://nova.clouds.archive.ubuntu.com/ubuntu jammy/multiverse amd64 c-n-f Metadata [8372 B]
-Get:23 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1062 kB]
-Get:24 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [234 kB]
-Get:25 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-updates/main amd64 c-n-f Metadata [16.0 kB]
-Get:26 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [974 kB]
-Get:27 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-updates/restricted Translation-en [157 kB]
-Get:28 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 c-n-f Metadata [532 B]
-Get:29 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [992 kB]
-Get:30 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [217 kB]
-Get:31 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [22.0 kB]
-Get:32 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [41.6 kB]
-Get:33 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [9768 B]
-Get:34 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata [472 B]
-Get:35 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [41.7 kB]
-Get:36 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-backports/main Translation-en [10.5 kB]
-Get:37 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-backports/main amd64 c-n-f Metadata [388 B]
-Get:38 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 c-n-f Metadata [116 B]
-Get:39 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [24.3 kB]
-Get:40 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en [16.4 kB]
-Get:41 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata [640 B]
-Get:42 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 c-n-f Metadata [116 B]
-Fetched 27.7 MB in 3s (8634 kB/s)
-Reading package lists...
-Building dependency tree...
-Reading state information...
-177 packages can be upgraded. Run 'apt list --upgradable' to see them.
-
-WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
-
-Reading package lists...
-Building dependency tree...
-Reading state information...
-lsb-release is already the newest version (11.1.0ubuntu4).
-lsb-release set to manually installed.
-gpg is already the newest version (2.2.27-3ubuntu2.1).
-gpg set to manually installed.
-The following additional packages will be installed:
-  libcurl4 libjq1 libonig5
-The following NEW packages will be installed:
-  jq libjq1 libonig5
-The following packages will be upgraded:
-  ca-certificates curl libcurl4 sudo
-4 upgraded, 3 newly installed, 0 to remove and 173 not upgraded.
-Need to get 1817 kB of archives.
-After this operation, 1113 kB of additional disk space will be used.
-Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-updates/main amd64 ca-certificates all 20230311ubuntu0.22.04.1 [155 kB]
-Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-updates/main amd64 sudo amd64 1.9.9-1ubuntu2.4 [821 kB]
-Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-updates/main amd64 curl amd64 7.81.0-1ubuntu1.14 [194 kB]
-Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcurl4 amd64 7.81.0-1ubuntu1.14 [290 kB]
-Get:5 http://nova.clouds.archive.ubuntu.com/ubuntu jammy/main amd64 libonig5 amd64 6.9.7.1-2build1 [172 kB]
-Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu jammy/main amd64 libjq1 amd64 1.6-2.1ubuntu3 [133 kB]
-Get:7 http://nova.clouds.archive.ubuntu.com/ubuntu jammy/main amd64 jq amd64 1.6-2.1ubuntu3 [52.5 kB]
-debconf: unable to initialize frontend: Dialog
-debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
-debconf: falling back to frontend: Readline
-debconf: unable to initialize frontend: Readline
-debconf: (This frontend requires a controlling tty.)
-debconf: falling back to frontend: Teletype
-dpkg-preconfigure: unable to re-open stdin: 
-Fetched 1817 kB in 1s (1370 kB/s)
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 64476 files and directories currently installed.)
-Preparing to unpack .../0-ca-certificates_20230311ubuntu0.22.04.1_all.deb ...
-Unpacking ca-certificates (20230311ubuntu0.22.04.1) over (20211016) ...
-Preparing to unpack .../1-sudo_1.9.9-1ubuntu2.4_amd64.deb ...
-Unpacking sudo (1.9.9-1ubuntu2.4) over (1.9.9-1ubuntu2.1) ...
-Preparing to unpack .../2-curl_7.81.0-1ubuntu1.14_amd64.deb ...
-Unpacking curl (7.81.0-1ubuntu1.14) over (7.81.0-1ubuntu1.6) ...
-Preparing to unpack .../3-libcurl4_7.81.0-1ubuntu1.14_amd64.deb ...
-Unpacking libcurl4:amd64 (7.81.0-1ubuntu1.14) over (7.81.0-1ubuntu1.6) ...
-Selecting previously unselected package libonig5:amd64.
-Preparing to unpack .../4-libonig5_6.9.7.1-2build1_amd64.deb ...
-Unpacking libonig5:amd64 (6.9.7.1-2build1) ...
-Selecting previously unselected package libjq1:amd64.
-Preparing to unpack .../5-libjq1_1.6-2.1ubuntu3_amd64.deb ...
-Unpacking libjq1:amd64 (1.6-2.1ubuntu3) ...
-Selecting previously unselected package jq.
-Preparing to unpack .../6-jq_1.6-2.1ubuntu3_amd64.deb ...
-Unpacking jq (1.6-2.1ubuntu3) ...
-Setting up ca-certificates (20230311ubuntu0.22.04.1) ...
-debconf: unable to initialize frontend: Dialog
-debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
-debconf: falling back to frontend: Readline
-Updating certificates in /etc/ssl/certs...
-rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
-19 added, 9 removed; done.
-Setting up sudo (1.9.9-1ubuntu2.4) ...
-Setting up libcurl4:amd64 (7.81.0-1ubuntu1.14) ...
-Setting up curl (7.81.0-1ubuntu1.14) ...
-Setting up libonig5:amd64 (6.9.7.1-2build1) ...
-Setting up libjq1:amd64 (1.6-2.1ubuntu3) ...
-Setting up jq (1.6-2.1ubuntu3) ...
-Processing triggers for man-db (2.10.2-1) ...
-Processing triggers for libc-bin (2.35-0ubuntu3.1) ...
-Processing triggers for ca-certificates (20230311ubuntu0.22.04.1) ...
-Updating certificates in /etc/ssl/certs...
-0 added, 0 removed; done.
-Running hooks in /etc/ca-certificates/update.d...
-done.
-
-Running kernel seems to be up-to-date.
-
-No services need to be restarted.
-
-No containers need to be restarted.
-
-No user sessions are running outdated binaries.
-
-No VM guests are running outdated hypervisor (qemu) binaries on this host.
-Cloning into '/root/ndn-dpdk'...
-Do not run this script as root
-To skip this check, set the environment variable SKIPROOTCHECK=1
-scripts/install-ndn-dpdk.sh: line 9: corepack: command not found
-scripts/install-ndn-dpdk.sh: line 10: make: command not found
-sudo: make: command not found
