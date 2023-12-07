@@ -2,7 +2,7 @@
 
 These Jupyter notebooks by @sjzhu and @MichaelRoss2023 were created for a final project for the ASU course CSE 534, Advanced Computer Networks.
 
-You can upload them to the [FABRIC testbed](https://jupyter.fabric-testbed.net) and run them there, as they rely on that framework to function. In addition, upload the `scripts/` directory contained in this repository, as it contains necessary setup scripts for the notebooks running NDN. (You may also simply clone the repository into your JupyterHub storage.)
+You can upload them to the [FABRIC testbed Jupyter Hub](https://jupyter.fabric-testbed.net) and run them there, as they rely on that framework to function. In addition, upload the `scripts/` directory contained in this repository, as it contains necessary setup scripts for the notebooks running NDN. (You may also simply clone the repository into your JupyterHub storage.)
 
 The ndn-poc notebook requires that your FABRIC project have access to `Component.SmartNIC` permissions in order to run, but no other special permissions are required to run these notebooks (aside from access to FABRIC in general).
 
@@ -22,7 +22,7 @@ The IPExperiment notebook creates a complex topology of 10 nodes, illustrated by
 Once the network for these nodes is set up, file transfer tests are run between the various consumers and producers to file transfer speeds in FABRIC. The purpose of these tests is to compare to the NDN tests done in the PoC and in the later NDN Experiment.
 
 ### NDNExperiment
-The NDNExperiment notebook runs on the same topology as the IPExperiment notebook. Instead of creating an IP based network on top of it, it installs NDN-DPDK similarly to the PoC notebook, albeit using the less performant BasicNIC network cards. It uses the XDP drivers as those are straightforward to install on the BasicNICs, and then allows the user to perform the same tests as the IPExperiment notebook. Instructions for how to do so are included in the notebook itself.
+The NDNExperiment notebook runs on the same topology as the IPExperiment notebook. Instead of creating an IP based network on top of it, it installs NDN-DPDK similarly to the PoC notebook, albeit using the less performant BasicNIC network cards. It uses the XDP drivers as those are straightforward to install on the BasicNICs, and then allows the user to perform the same tests as the IPExperiment notebook. Instructions for how to run these tests with NDN are included in the notebook itself.
 
 ## Thanks
 
