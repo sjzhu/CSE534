@@ -2,9 +2,9 @@
 
 These Jupyter notebooks by @sjzhu and @MichaelRoss2023 were created for a final project for the ASU course CSE 534, Advanced Computer Networks.
 
-You can upload them to the [FABRIC testbed](https://jupyter.fabric-testbed.net) and run them there, as they rely on that framework to function.
+You can upload them to the [FABRIC testbed](https://jupyter.fabric-testbed.net) and run them there, as they rely on that framework to function. In addition, upload the `scripts/` directory contained in this repository, as it contains necessary setup scripts for the notebooks running NDN. (You may also simply clone the repository into your JupyterHub storage.)
 
-The ndn-poc notebook requires that your FABRIC project have access to Component.SmartNIC permissions in order to run, but no other special permissions are required to run these notebooks (aside from access to FABRIC in general).
+The ndn-poc notebook requires that your FABRIC project have access to `Component.SmartNIC` permissions in order to run, but no other special permissions are required to run these notebooks (aside from access to FABRIC in general).
 
 ## The notebooks
 
@@ -26,6 +26,6 @@ The NDNExperiment notebook runs on the same topology as the IPExperiment noteboo
 
 ## Thanks
 
-Thanks to Professor Syrotiuk for teaching an awesome class for Fall 2023!
+Thanks to Professor Violet Syrotiuk for teaching an awesome class for Fall 2023!
 
 Thanks to the NDN-DPDK repo for being very well documented and having many tutorials to follow!
