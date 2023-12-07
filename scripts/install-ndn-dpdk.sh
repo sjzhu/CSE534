@@ -1,8 +1,7 @@
 #!/bin/bash
-
-# install ndn-dpdk
 sudo apt update
 sudo apt install -y --no-install-recommends ca-certificates curl gpg jq lsb-release sudo
+# install ndn-dpdk
 git clone https://github.com/usnistgov/ndn-dpdk.git ~/ndn-dpdk
 cd ~/ndn-dpdk
 ./docs/ndndpdk-depends.sh -y
